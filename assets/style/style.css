@@ -106,7 +106,7 @@ a {
     .container-links {
         display: grid;
         justify-items: center;
-        column-gap: 5rem;
+        column-gap: 4   rem;
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
@@ -260,6 +260,14 @@ main {
 /* Main - Studies-Section */
 
 .my-studies {
+    text-align: center;
+}
+
+.my-studies h3 span {
+    color: var(--terciario);
+}
+
+.container-studies {
     padding: 4rem 0;
     display: flex;
     justify-content: center;
@@ -267,12 +275,12 @@ main {
 }
 
 @media (max-width: 768px) {
-    .my-studies {
+    .container-studies {
         display: grid;
     }
 }
 
-.my-studies > div {
+.container-studies > div {
     text-align: center;
     width: 25rem;
     height: 30rem;
@@ -282,11 +290,84 @@ main {
     transition: 0.3s;
 }
 
-.my-studies div:hover {
+.container-studies div:hover {
     transform: scale(1.05, 1.05);
     background-color: var(--terciario);
 }
 
-.my-studies div p {
+.container-studies div p {
     font-size: 1.8rem;
+}
+
+/* Skills */
+
+.skills {
+    padding-top: 4rem;
+    background-color: var(--primario);
+    height: 100vh;
+}
+
+.skills h3 {
+    text-align: center;
+}
+
+.container-skills {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bar {
+    width: 80vw;
+    height: 2rem;
+    background-color: var(--blanco);
+    border-radius: 10px;
+    border-right: 3px solid rgba(61, 149, 124, 0.5);
+    border-bottom: 3px solid rgba(61, 149, 124, 0.5);
+    -webkit-box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.19);
+    -moz-box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.19);
+    box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.19);
+}
+
+.progress-bar {
+    width: var(--w);
+    height: 2rem;
+    background-color: var(--terciario);
+    border-radius: 10px;
+    animation: animationBar 5s ease;
+}
+
+.container-skills .hability:nth-child(1) p:last-of-type {
+    margin: 0;
+    display: inline-block;
+    padding-left: 40vw;
+}
+
+.container-skills .hability:nth-child(2) p:last-of-type {
+    margin: 0;
+    display: inline-block;
+    padding-left: 60vw;
+}
+
+.container-skills .hability:nth-child(3) p:last-of-type {
+    margin: 0;
+    display: inline-block;
+    padding-left: 40vw;
+}
+
+.container-skills .hability:nth-child(4) p:last-of-type {
+    margin: 0;
+    display: inline-block;
+    padding-left: 70vw;
+}
+
+.hability p:first-child {
+    margin-bottom: 0;
+}
+
+@keyframes animationBar {
+    0%{width: 0%;}
+    100%{width: var(--w);}
 }
