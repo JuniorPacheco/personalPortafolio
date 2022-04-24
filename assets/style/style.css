@@ -106,7 +106,7 @@ a {
     .container-links {
         display: grid;
         justify-items: center;
-        column-gap: 8rem;
+        column-gap: 5rem;
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
