@@ -21,7 +21,6 @@ html {
     HTML*/
 }
 body {
-    width: 100vw;
     background-color: var(--primario);
     margin: 0;
     font-family: var(--fuentePrincipal);
@@ -188,29 +187,6 @@ a {
     width: 1.5rem;
     height: auto;
 }
-
-.header-principalImage {
-    width: 44rem;
-    height: auto;
-    position: absolute;
-    filter: drop-shadow(0 2px 10px rgba(0, 0, 0, 0.7));
-    z-index: -1;
-    top: 100%;
-    transform: translate(-50%, -100%);
-}
-
-@media (max-width: 768px) {
-    .header-principalImage {
-        transform: translate(43vw, -100%);
-    }
-}
-
-@media (max-width: 568px) {
-    .header-principalImage {
-        transform: translate(4vw, -85%);
-    }
-}
-
 
 /* Main */
 
