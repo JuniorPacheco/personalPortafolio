@@ -61,7 +61,7 @@ a {
 /* Nav bar */
 
 .navbar {
-    z-index: 1;
+    z-index: 3;
     position: fixed;
     width: 100vw;
     background-color: var(--primario);
@@ -123,13 +123,22 @@ a {
 /* Header */
 
 .header-home {
-    height: 110vh;
+    position: relative;
+    height: 100vh;
     display: flex;
     justify-content: center;
 }
 
+.header-homeleft {
+    background-image: url(../img/personalPhoto2.png);
+    background-size: 25rem;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
 .header-homeleft,
 .header-homeright {
+    z-index: 2;
     width: 38vw;
 }
 
