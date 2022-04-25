@@ -27,6 +27,10 @@ body {
 }
 /* Globales*/
 
+* {
+    scroll-behavior: smooth;
+}
+
 h1 {
     font-size: 4.8rem;
 }
@@ -91,6 +95,14 @@ a {
 .container-links {
     display: flex;
     gap: 2rem;
+}
+
+.container-links a {
+    letter-spacing: 1px;
+}
+
+.container-links a:hover {
+    color: var(--terciario);
 }
 
 @media (max-width: 768px) {
