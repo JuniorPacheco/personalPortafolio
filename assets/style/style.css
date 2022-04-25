@@ -340,7 +340,7 @@ main {
 .skills {
     padding-top: 4rem;
     background-color: var(--primario);
-    height: 100vh;
+    padding-bottom: 12rem;
 }
 
 .skills h3 {
