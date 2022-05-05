@@ -99,10 +99,12 @@ a {
 
 .container-links a {
     letter-spacing: 1px;
+    transition: 0.1s ease all;
 }
 
 .container-links a:hover {
     color: var(--terciario);
+    transform: scale(1.1,1.1);
 }
 
 @media (max-width: 768px) {
@@ -168,7 +170,7 @@ a {
     border-right: 4px solid var(--terciario);
     width: 9ch;
 
-    animation: typing 7s steps(9), blink .5s infinite step-end alternate;
+    animation: typing 5s steps(9), blink .5s infinite step-end alternate;
     animation-iteration-count: infinite;
     overflow: hidden;
 }
@@ -444,6 +446,7 @@ main {
 
 .container-experience > div:hover {
     transform: scale(1.05, 1.05);
+    background-color: #197f5b;
 }
 
 .container-experience div img {
