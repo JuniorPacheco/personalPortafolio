@@ -507,6 +507,11 @@ main {
     transition: 0.3s;
 }
 
+.container-portfolio div img {
+    height: 100%;
+    object-fit: cover;
+}
+
 .container-portfolio div:hover {
     transform: scale(1.05, 1.05);
 }
