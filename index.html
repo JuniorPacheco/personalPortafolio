@@ -9,27 +9,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap" rel="stylesheet">
-
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="assets/style/style.css">
     <title>Junior Portfolio</title>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container-principalLink">
-            <a href="#"><span>J</span><span>P</span><span>.</span></a>
-        </div>
-        <div class="container-links">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#experience">Experience</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
-        </div>
-        <div class="navbar__menu">
-            <i class='bx bx-menu'></i>
-        </div>
-    </nav>
+    <div class="container-navbar">
+        <nav class="navbar">
+            <div class="container-principalLink">
+                <a href="#"><span>J</span><span>P</span><span>.</span></a>
+            </div>
+            <div class="container-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="navbar__menu">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </div>
     <header id="home" class="header-home">
 
         <div class="header-homeleft">
@@ -41,13 +43,13 @@
             <div class="image-socialmedia">
                 <a href="https://www.instagram.com/junifabi97/" target="_blank"><img src="assets/img/instagram.png" alt="Instagram social media"></a>
                 <a href="https://www.linkedin.com/in/junior-fabian-pacheco-moyano-299b48210/" target="_blank"><img src="assets/img/linkedin.png" alt="Linkedin social media"></a>
-                <a href="https://twitter.com/Junifabi97" target="_blank"><img src="assets/img/twitter.png" alt="Twiter social media"></a>
+                <a href="https://github.com/JuniorPacheco" target="_blank"><img src="assets/img/github.png" alt="Twiter social media"></a>
             </div>
         </div>
 
         <div class="header-homeright">
-            <p class="header-homeright__introduction">-Introduction</p>
-            <h2 class="header-homeright__title">Full Stack Developer and Designer, based in Colombia</h2>
+            <p class="header-homeright__introduction">-Hello!, I'm</p>
+            <h2 class="header-homeright__title">Front-end developer, based in Colombia</h2>
             <p class="header-homeright__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat 
             qui exercitationem corporis expedita illo porro quod obcaecati omnis, 
             id at? Ullam nobis odit ratione inventore enim similique exercitationem qui sunt
@@ -68,6 +70,13 @@
                     qui exercitationem corporis expedita illo porro quod obcaecati omnis, 
                     id at? Ullam nobis odit ratione inventore enim similique exercitationem qui sunt
                     id at? Ullam nobis odit ratione inventore enim similique exercitationem qui sunt.</p>
+                    <section class="container-skills">
+                        <p><i class='bx bxs-right-arrow' style='color:#399078'  ></i> HTML5</p>
+                        <p><i class='bx bxs-right-arrow' style='color:#399078'  ></i> CSS3</p>
+                        <p><i class='bx bxs-right-arrow' style='color:#399078'  ></i> TailWind CSS</p>
+                        <p><i class='bx bxs-right-arrow' style='color:#399078'  ></i> JavaScript</p>
+                        <p><i class='bx bxs-right-arrow' style='color:#399078'  ></i> React</p>
+                    </section>
                 <a href="#"><img src="assets/img/flechaAbajoDescarga.png" alt="download icon"> <p>Download CV</p></a>
             </article>
 
@@ -75,17 +84,45 @@
                 <h3>My <span>studies</span></h3>
                 <div class="container-studies">
                     <div>
-                        <img src="assets/img/Tec.png" alt="">
-                        <h4>Tec de Monterrey</h4>
-                        <p>2014-2020</p>
-                        <p>Licenciatura en diseño industrial</p>
+                        <img src="assets/img/Google.png" alt="">
+                        <h4>Google Actívate</h4>
+                        <p>2020-2020</p>
+                        <p>Curso de Introducción al Desarrollo Web: HTML y CSS 1 y 2</p>
                     </div>
     
                     <div>
+                        <img src="assets/img/platzi.webp" alt="">
+                        <h4>Platzi</h4>
+                        <p>2021-2021</p>
+                        <p>Curso de Programación Básica</p>
+                    </div>
+
+                    <div>
+                        <img src="assets/img/freecodecamp.png" alt="">
+                        <h4>FreeCodeCamp</h4>
+                        <p>2022-2022</p>
+                        <p>Responsive Web Design</p>
+                    </div>
+
+                    <div>
+                        <img src="assets/img/freecodecamp.png" alt="">
+                        <h4>FreeCodeCamp</h4>
+                        <p>2022-2022</p>
+                        <p>JavaScript Algorithms and Data Structures</p>
+                    </div>
+
+                    <div>
                         <img src="assets/img/logo_academlo.png" alt="">
                         <h4>Academlo</h4>
-                        <p>2020-2022</p>
-                        <p>Programador Full Stack</p>
+                        <p>2022-2022</p>
+                        <p>Fundamentos del Desarrollo Web</p>
+                    </div>
+
+                    <div>
+                        <img src="assets/img/logo_academlo.png" alt="">
+                        <h4>Academlo</h4>
+                        <p>2022-Coming Soon</p>
+                        <p>React</p>
                     </div>
 
                 </div>
@@ -95,40 +132,13 @@
 
         <section id="skills" class="skills">
             <h3>Skills</h3>
-            <div class="container-skills">
-                <article class="hability">
-                    <p>Web design</p>
-                    <p>50%</p>
-                    <div class="bar">
-                        <div class="progress-bar" style="--w:40vw"></div>
-                    </div>
-                </article>
-    
-                <article class="hability">
-                    <p>Interaction Design</p>
-                    <p>75%</p>
-                    <div class="bar">
-                        <div class="progress-bar" style="--w:60vw"></div>
-                    </div>
-                </article>
-    
-                <article class="hability">
-                    <p>UX</p>
-                    <p>50%</p>
-                    <div class="bar">
-                        <div class="progress-bar" style="--w:40vw"></div>
-                    </div>
-                </article>
-    
-                <article class="hability">
-                    <p>Frameworks</p>
-                    <p>87%</p>
-                    <div class="bar">
-                        <div class="progress-bar" style="--w:70vw"></div>
-                    </div>
-                </article>
-            </div>
-
+            <section class="container-skills">
+                <p><i class='bx bxs-right-arrow' style='color:#399078'  ></i> HTML5</p>
+                <p><i class='bx bxs-right-arrow' style='color:#399078'  ></i> CSS3</p>
+                <p><i class='bx bxs-right-arrow' style='color:#399078'  ></i> TailWind CSS</p>
+                <p><i class='bx bxs-right-arrow' style='color:#399078'  ></i> JavaScript</p>
+                <p><i class='bx bxs-right-arrow' style='color:#399078'  ></i> React</p>
+            </section>
         </section>
 
         <section id="experience" class="experience shadowBg">
@@ -168,25 +178,65 @@
         </section>
 
         <section id="portfolio" class="portfolio">
-            <h3>Portfolio</h3>
-            <div class="container-portfolio">
-                <div>
-                    <img src="assets/img/Ejemplo 1.png" alt="">
-                </div>
-
-                <div>
-                    <img src="assets/img/Ejemplo2.png" alt="">
-                </div>
-
-                <div>
-                    <img src="assets/img/Ejemplo 3.png" alt="">
-                </div>
-
-                <div>
-                    <img src="assets/img/Ejemplo 4.png" alt="">
-                </div>
-
-            </div>
+            <h3 >Portfolio</h3>
+            <section class="container-portfolio">
+                <article class="portfolio-card">
+                    <section class="cardPortolio-header">
+                        <i class='bx bxs-folder' style='color:#388c74'  ></i>
+                        <div>
+                            <a href="https://github.com/JuniorPacheco/Cotizador-Criptos" target="_blank"><i class='bx bxl-github' style='color:#388d75' ></i></a>
+                            <a href="https://cotizador-criptomoneyr.netlify.app/" target="_blank"><i class='bx bx-git-branch' style='color:#388c74'  ></i></a>
+                        </div>
+                    </section>
+                    <section class="cardPortfolio-description">
+                        <p>Cotizador de Criptomonedas</p>
+                        <p>Pagina web donde puedes contrastar el valor de criptomonedas con distintas monedas</p>
+                        <p>React.js JavaScript CSS</p>
+                    </section>
+                </article>
+                <article class="portfolio-card">
+                    <section class="cardPortolio-header">
+                        <i class='bx bxs-folder' style='color:#388c74'  ></i>
+                        <div>
+                            <a href="https://github.com/JuniorPacheco/Control-de-Gastos" target="_blank"><i class='bx bxl-github' style='color:#388d75' ></i></a>
+                            <a href="https://controlgastosappr.netlify.app/" target="_blank"><i class='bx bx-git-branch' style='color:#388c74'  ></i></a>
+                        </div>
+                    </section>
+                    <section class="cardPortfolio-description">
+                        <p>Planificador de gastos</p>
+                        <p>Pagina donde puedes ingresar tu salario y tus gastos para tener un control sobre estos.</p>
+                        <p>React.js JavaScript CSS</p>
+                    </section>
+                </article>
+                <article class="portfolio-card">
+                    <section class="cardPortolio-header">
+                        <i class='bx bxs-folder' style='color:#388c74'  ></i>
+                        <div>
+                            <a href="https://github.com/JuniorPacheco/WeatherApp" target="_blank"><i class='bx bxl-github' style='color:#388d75' ></i></a>
+                            <a href="https://weatherappjp.netlify.app/" target="_blank"><i class='bx bx-git-branch' style='color:#388c74'  ></i></a>
+                        </div>
+                    </section>
+                    <section class="cardPortfolio-description">
+                        <p>Aplicación del clima</p>
+                        <p>Aplicación donde puedes ver el clima en tu localización y en diversos lugares a gusto</p>
+                        <p>React.js JavaScript CSS</p>
+                    </section>
+                </article>
+                <article class="portfolio-card">
+                    <section class="cardPortolio-header">
+                        <i class='bx bxs-folder' style='color:#388c74'  ></i>
+                        <div>
+                            <a href="https://github.com/JuniorPacheco/RickAndMortyWiki" target="_blank"><i class='bx bxl-github' style='color:#388d75' ></i></a>
+                            <a href="https://rickandmortywikijp.netlify.app/" target="_blank"><i class='bx bx-git-branch' style='color:#388c74'  ></i></a>
+                        </div>
+                    </section>
+                    <section class="cardPortfolio-description">
+                        <p>Rick And Morty Wiki</p>
+                        <p>Pagina web donde puedes consultar personajes y ver caracteristicas dependiento de su dimensión</p>
+                        <p>React.js JavaScript CSS</p>
+                    </section>
+                </article>
+            </section>
         </section>
 
         <section id="contact" class="contact shadowBg">
