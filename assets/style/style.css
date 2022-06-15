@@ -423,10 +423,15 @@ main {
     align-items: center;
     max-width: 900px;
     margin: 0 auto;
+    padding: 0 1rem;
 }
 
 .featured-entry {
     position: relative;
+}
+
+.featured-entry .portfolio-card {
+    width: 320px;
 }
 
 .featured-entry img {
@@ -455,6 +460,18 @@ main {
 
 .featured-entry:last-of-type .portfolio-card {
     left: 0;
+}
+
+@media (max-width: 600px) {
+    .featured-entry img {
+        width: 100%;
+    }
+    .featured-entry .portfolio-card {
+        position: static;
+        top: 0;
+        transform: translate(0, -10%);
+        width: 100%;
+    }
 }
 
 /* Experience */
