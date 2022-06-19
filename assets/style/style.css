@@ -256,8 +256,8 @@ a {
 }
 
 .header-homeright__description {
-    text-align: center;
-    font-size: 1.4rem;
+    text-align: left;
+    font-size: 2rem;
 }
 
 .header-homeright > a {
